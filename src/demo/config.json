@@ -1,0 +1,187 @@
+{
+  "name": "CourseCairn",
+  "primary": "Request a pilot",
+  "accent": "#1f6b3a",
+  "ink": "#0a0a0a",
+  "bg": "#f8f8f8",
+  "surface": "#eeeeee",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400..700&family=JetBrains+Mono:wght@400..500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Host Grotesk\", system-ui, sans-serif",
+  "fontText": "\"Host Grotesk\", system-ui, sans-serif",
+  "client": "Solar installation diploma, Ikeja campus",
+  "note": "A fixed course of 12 modules. Results here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Course",
+    "records": "Modules",
+    "queue": "Changes to review"
+  },
+  "overview": {
+    "title": "Solar diploma, term 1",
+    "kpis": [
+      [
+        "Learners",
+        "146"
+      ],
+      [
+        "Modules",
+        "12"
+      ],
+      [
+        "Flagged",
+        "3"
+      ],
+      [
+        "Feedback comments",
+        "412"
+      ]
+    ],
+    "chart": {
+      "title": "Pass rate per module",
+      "labels": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8"
+      ],
+      "values": [
+        91,
+        78,
+        82,
+        52,
+        68,
+        87,
+        49,
+        84
+      ],
+      "threshold": 70,
+      "thresholdLabel": "Pass mark 70%",
+      "caption": "Modules under the line are reviewed first."
+    }
+  },
+  "records": {
+    "title": "Modules",
+    "searchHint": "Module or topic",
+    "statusCol": 3,
+    "columns": [
+      "Module",
+      "Topic",
+      "Learners",
+      "Status",
+      "Pass rate",
+      "Next step"
+    ],
+    "tones": {
+      "Flagged": "bad",
+      "Watch": "warn",
+      "Strong": "good"
+    },
+    "rows": [
+      [
+        "Module 4",
+        "Inverter sizing",
+        "138",
+        "Flagged",
+        "52%",
+        "Change to review"
+      ],
+      [
+        "Module 7",
+        "Load calculation",
+        "124",
+        "Flagged",
+        "49%",
+        "Change to review"
+      ],
+      [
+        "Module 5",
+        "Battery storage",
+        "131",
+        "Watch",
+        "68%",
+        "Change to review"
+      ],
+      [
+        "Module 9",
+        "Wiring and cabling",
+        "118",
+        "Watch",
+        "71%",
+        "Lab feedback"
+      ],
+      [
+        "Module 1",
+        "Electrical safety",
+        "146",
+        "Strong",
+        "91%",
+        "None"
+      ],
+      [
+        "Module 2",
+        "DC circuits",
+        "144",
+        "Strong",
+        "78%",
+        "None"
+      ],
+      [
+        "Module 3",
+        "Panel types",
+        "141",
+        "Strong",
+        "82%",
+        "None"
+      ],
+      [
+        "Module 6",
+        "Panel mounting",
+        "129",
+        "Strong",
+        "87%",
+        "None"
+      ],
+      [
+        "Module 8",
+        "Site survey",
+        "120",
+        "Strong",
+        "84%",
+        "None"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Course changes waiting for a lead",
+    "lead": "Each change lists the scores and comments behind it. Nothing changes in the course until a lead approves it.",
+    "items": [
+      {
+        "id": "m4",
+        "title": "Module 4: add two worked sizing examples",
+        "detail": "Before the mixed-load topic.",
+        "reason": "61% missed question 7; 38 comments say the pace is too fast."
+      },
+      {
+        "id": "m7",
+        "title": "Module 7: add a maths refresher first",
+        "detail": "A short session on module 2 formulas.",
+        "reason": "Learners who scored under 60% in module 2 pass module 7 at 31%."
+      },
+      {
+        "id": "m5",
+        "title": "Module 5: one more lab session",
+        "detail": "Battery storage practical.",
+        "reason": "11 comments ask for more lab time; lab scores trail theory by 14 points."
+      },
+      {
+        "id": "m9",
+        "title": "Module 9: review question 3 wording",
+        "detail": "Cable sizing question.",
+        "reason": "Strong learners miss it as often as weak ones."
+      }
+    ]
+  }
+}
